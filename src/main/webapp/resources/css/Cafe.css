@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+}
+
+*{ /* Aqui é a parte da modificaçao em geral da margem do preenchimento */ 
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* Aqui posso modificar as corres etc  */
+#menu ul{
+  list-style: none;
+  padding: 0;
+ text-align:center;
+} /* resdtante da parte de cima  */
+.ul{
+    background-color:rgb(211, 165, 27) ;
+}
+
+
+
+ /* aqui faz a modificaçao em qual parte colocar o display */ 
+#menu ul li{
+    display: inline;
+}
+
+ /* Aqui faz a modificaçao da lista e do link */
+#menu ul li a{
+    display: inline-block;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    transition: .10s;  
+}
+
+/* Essa parte muda a cor do menu o hover */
+#menu ul li a:hover{
+    background-color:black;
+    color:saddlebrown;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+/* Essa parte faz a manipulaçao do barra de pesquisa */
+#pes{
+    border:200%;
+    width: 390px;
+   padding: 7px; 
+   
+}
+/* Essa é a parte que faz a manipulaçao do cabeçalho */
+#h{
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+    padding: 20px;
+    transition: .4s;
+}
+
+/* Essa parte muda a cor docabeçalho o hover */
+#h:hover{
+background-color:white;
+}
+
+/* Essa parte faz a modificaçao do botao de pesquisa */
+#but{
+    padding:-0%;
+    width: 90px;
+    background-color: transparent;
+    border: transparent;
+}
+
+
+/* formataçao da tada de ir pegar a compra */ 
+
+.data{
+    position: absolute;
+    left: 510px;
+    top: 315px;
+    width: 100px;
+
+}
+.data1{
+    background-color:rgb(223, 219, 219);
+    width: 170px;
+}
+
+
+
+/* ......................essa é a parte do produto todo............... */
+
+
+/* formataçao do produto */
+.img-cafe{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    width: 260px;
+    height: 390px;
+}
+/* essa é a parte do titulo */
+.titulo{
+    color: black;
+    text-transform:capitalize;
+}
+
+/* formataçao dos paragrafos */
+.paragrafo{
+    position: absolute;
+    left:510px;
+    top: 180px;
+    text-transform: uppercase;
+    
+}
+
+.preco-original{
+    color: gray;
+    text-transform: uppercase;
+
+}
+/* formataçao do span em negrito e sublinhado  */
+.preco-atual span{
+    font-weight: bolder;
+    text-decoration: underline;
+    line-height: 2;   
+}
+.preco-atual{
+    text-transform:capitalize;
+    font-weight:bolder ;
+    line-height: 2;
+}
+/* formatacao da cor e do formato do texto */
+.desconto{
+    color: green;
+     text-transform:capitalize ;
+     line-height: 1.5;
+ }
+  /* formataçao do formulario de quantidade  */
+
+  .form-quant{
+    position: absolute;
+    left: 510px;
+    top: 340px;
+    text-transform: capitalize;
+    line-height: 3;
+    
+    
+  }
+  .formulario{
+      background-color:rgb(223, 219, 219);
+      cursor:default;
+      border-radius: 5px;
+      width: 50px;
+      height: 22px;
+  }
+
+  /* formataçao do botao */
+  .bnt-Comprar{
+      position: absolute;
+      left: 510px;
+      top: 390px;
+      height: 45px;
+      width: 150px;
+      background-color: #e26c48;
+      border-radius: 15px;
+      font-weight: bolder;
+     
+
+  }
+  .bnt-Comprar:hover{
+      background-color:#d63909 ;
+      color: white;
+      cursor:pointer;
+      text-transform: uppercase;
+  }
+ 
+     
+      
+     
+  

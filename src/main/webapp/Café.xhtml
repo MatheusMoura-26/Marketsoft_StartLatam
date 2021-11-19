@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:outputStylesheet name="Cafe.css" library="css"></h:outputStylesheet>
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Café</title>
+</h:head>
+<h:body>
+	<nav id="menu"> <nav id="menu">
+	<ul class="ul">
+
+		<li>
+			<h1 id="h">Marketsoft</h1>
+		</li>
+
+		<li><a href="Quem_Somos.xhtml">Home</a></li>
+
+		<li><a href="Principal.xhtml">Produtos</a></li>
+
+		<li><a href="Cadastro.xhtml">Cadastre-se</a></li>
+
+		<li><a href="Login.xhtml">Entrar</a></li>
+
+		<li><input id="pes" type="text" class="search-txt"
+			placeholder="Pesquisar"></input></li>
+
+		<li>
+			<button id="but">
+				<a href="https://www.google.com.br/"> Pesquisar </a>
+			</button></li>
+		
+	</ul>
+
+	</nav>
+
+
+	<div class="data">
+		<form action="/action_page.php">
+			<label for="birthdaytime"></label> <input class="data1"
+				type="datetime-local" id="birthdaytime" name="birthdaytime"></input>
+		</form>
+	</div>
+
+	<!-- essa é a parte da img, form etc...-->
+
+
+	<div class="paragrafo">
+		<form class="">
+			<h2 class="titulo">Nescafé</h2>
+			<br>
+				<p class="preco-original">preço original: R$ 4,99</p>
+				<p class="preco-atual">
+					promoção <span>R$ 3,99</span>
+				</p>
+				<p class="desconto">
+					você economiza <span>R$ 1,00</span>
+				</p> </br>
+		</form>
+
+	</div>
+
+	<!-- essa é a parte do formilario de quantidade -->
+	<div class="form-quant">
+		<label for="quantity">Quantidade =</label> <input class="formulario"
+			type="number" id="quantity" name="quantity" min="1" max="20"></input>
+	</div>
+
+	<!-- javascript para o evento do botao--> <script
+		type="text/javascript">
+		function Comprar() {
+			window.location.href = "pagamento.xhtml";
+		}
+	</script> <input class="bnt-Comprar" type="button" value="Comprar"
+		onclick="Comprar ()" />
+		<h:graphicImage class="img-cafe" library="imagem" name="download.jfif"/>
+		</nav>
+</h:body>
+</html>

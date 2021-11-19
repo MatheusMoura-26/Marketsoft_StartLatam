@@ -1,0 +1,76 @@
+@charset "UTF-8";
+body{
+    background-color:white;
+}
+
+*{ /* Aqui é a parte da modificaçao em geral da margem do preenchimento */ 
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* Aqui posso modificar as corres etc  */
+#menu ul{
+  list-style: none;
+  background-color:rgb(211, 165, 27);
+  padding: 0;
+ text-align:center;
+} 
+ /* aqui faz a modificaçao em qual parte colocar o display */ 
+#menu ul li{
+    display: inline;
+}
+
+ /* Aqui faz a modificaçao da lista e do link */
+#menu ul li a{
+    display: inline-block;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    transition: .10s;  
+}
+
+/* Essa parte muda a cor do menu o hover */
+#menu ul li a:hover{
+    background-color:black;
+
+}
+/* Essa parte faz a manipulaçao do barra de pesquisa */
+#pes{
+    border:200%;
+    width: 390px;
+   padding: 7px; 
+   
+}
+/* Essa é a parte que faz a manipulaçao do cabeçalho */
+#h{
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+    padding: 20px;
+    transition: .4s;  
+}
+
+/* Essa parte muda a cor docabeçalho o hover */
+#h:hover{
+background-color:white;
+}
+
+/* Essa parte faz a modificaçao do botao de pesquisa */
+#but{
+    padding:-0%;
+    width: 90px;
+    background-color: transparent;
+    border: transparent;
+}
+ main h1{
+     margin: 20px;
+     color: black;
+     
+ }
+
+ div h2 input{
+     display: inline-block;
+ }
+
+

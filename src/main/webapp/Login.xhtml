@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:outputStylesheet name="Login.css" library="css"></h:outputStylesheet>
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Login</title>
+
+</h:head>
+
+<h:body>
+	<main>
+	<h1>Login</h1>
+
+	<h:form>
+		<LABEL for="email"> <span>E-mail</span> <p:inputText type="email"	name="password" placeholder="Digite seu e-mail" target="_blank" value="#{loginbean.cliente.email}"/>
+		</LABEL> 
+		<LABEL for="password"> <span>Senha</span> <p:inputText type="password" target="_blank" name="password" placeholder="Digite sua senha" value="#{loginbean.cliente.senha}" /></LABEL> 
+			<a href="Cadastro.xhtml">Cadastre-se Aqui</a>
+		<p:messages id="longinmen"> </p:messages>
+		
+			
+			<p:commandButton action="#{loginbean.logar}" value="Logar"  update="longinmen"    />
+		
+	</h:form>>
+	</main>
+	<section class="imagem">
+
+		<div class="circle"></div>
+	</section>
+
+</h:body>
+</html>

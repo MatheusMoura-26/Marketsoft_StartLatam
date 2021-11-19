@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+
+	<title>Cadastro</title>
+	<h:outputStylesheet library="css" name="Cadastro.css" />
+
+</h:head>
+<h:body>
+	<main>
+	<h:form action="">
+		<label for="name"> <span>Nome</span> <p:inputText type="text"
+			name="password" placeholder="Informe Seu nome completo"  value="#{cadastrobean.cliente.nome}"></p:inputText>
+		</label> <label for="name"> <span>E-mail</span> <p:inputText type="email"
+			name="password" placeholder="Informe Seu nome completo" value="#{cadastrobean.cliente.email}"></p:inputText>
+		</label> <label for="name"> <span>Senha</span> <p:inputText type="password"
+			name="password" placeholder="Informe Seu nome completo" value="#{cadastrobean.cliente.senha}"></p:inputText>
+		</label> 
+		<p:messages id="cadastronmen"> </p:messages>
+
+		<h:commandButton type="submit" onclick="cadastro()"  action="#{cadastrobean.cadastro}" value="Cadastrar"  update="cadastronmen"  >
+			<a href="Produtos.xhtml"> Cadastrar </a>
+		</h:commandButton>
+
+		<script>
+			function cadastro() {
+				alert('Cadastro Realizado com Sucesso!');
+			}
+		</script>
+	</h:form>
+	</main>
+
+</h:body>
+</html>

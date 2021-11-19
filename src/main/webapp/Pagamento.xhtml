@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:outputStylesheet name="Pagamento.css" library="css"></h:outputStylesheet>
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Insert title here</title>
+</h:head>
+<h:body>
+	<nav id="menu">
+
+		<h:form class="checkout">
+			<div class="checkout-header">
+				<h1 class="checkout-title">
+					Comprar <a class="checkout-price" href="Principal.xhtml">X</a>
+				</h1>
+			</div>
+			<p>
+				<h:inputText type="text" class="checkout-input checkout-name"
+					placeholder="Seu nome"></h:inputText> <h:inputText type="text"
+					class="checkout-input checkout-exp" placeholder="MÊS"></h:inputText> <h:inputText
+					type="text" class="checkout-input checkout-exp" placeholder="ANO"></h:inputText>
+			</p>
+			<p>
+				<input type="text" class="checkout-input checkout-card"
+					placeholder="1111 1111 1111 1111"></input> <input type="text"
+					class="checkout-input checkout-cs" placeholder="CS"></input>
+			</p>
+			<p>
+				<h:inputText type="submit" value="Pagar" class="checkout-btn"
+					onclick="cadastro()"></h:inputText>
+				<script>
+					function cadastro() {
+						alert('Pagamento Realizado!');
+					}
+				</script>
+				<h:inputText></h:inputText>
+			</p>
+		</h:form>
+
+	</nav>
+
+</h:body>
+</html>
