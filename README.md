@@ -3,9 +3,8 @@ Repositório do projeto "Marketsoft"  para o  curso do  Start Latam Recife da Re
 DSENVOLVEDORES:
 <ul>
   <li><a href="https://github.com/LayzaCatarinyC">@LayzaCatarinyC</a></li>
-  <li><a href="https://github.com/LayzaCatarinyC">@Leuleticiag</a></li>
+  <li><a href="https://github.com/euleticiag">@Leuleticiag</a></li>
   <li><a href="https://github.com/luc4s-s">@luc4s-s</a></li>
   <li><a href="https://github.com/MatheusMoura-26">@MatheusMoura-26</a></li>
    <li><a href="https://github.com/MatheusPenha">@Matheus Penha</a></li>
-  euleticiag
 </ul>
