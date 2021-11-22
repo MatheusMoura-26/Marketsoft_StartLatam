@@ -1,6 +1,6 @@
 # Marketsoft_StartLatam
 Repositório do projeto "Marketsoft"  para o  curso do  Start Latam Recife da Rede Cidadã em parceria com a Accenture Brasil. <br>
-DSENVOLVEDORES:
+DESENVOLVEDORES:
 <ul>
   <li><a href="https://github.com/LayzaCatarinyC">@LayzaCatarinyC</a></li>
   <li><a href="https://github.com/euleticiag">@Leuleticiag</a></li>
